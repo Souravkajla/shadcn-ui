@@ -1,0 +1,175 @@
+body {
+  background-color: #09090b;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  height: 7vh;
+  border-bottom: 1px solid #27272a;
+  padding-bottom: 6px;
+}
+
+#company-txt {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+#lines-div {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+#line {
+  height: 25px;
+  width: 1px;
+  background-color: #fafafa;
+  transform: rotate(45deg);
+  margin-left: 20px;
+}
+
+#line2 {
+  height: 15px;
+  width: 1px;
+  background-color: #fafafa;
+  transform: rotate(45deg);
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#shadcn {
+  color: #fafafa;
+  font-family: "rubik", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#header-txt {
+  color: #b5b5b6;
+  font-family: "rubik", sans-serif;
+  font-size: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+#header-txt div:hover {
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#search-fonts {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  padding-right: 30px;
+}
+
+#search-fonts i {
+  font-size: 20px;
+  background-color: transparent;
+  padding: 9px;
+  border-radius: 10px;
+}
+
+#search-fonts i:hover {
+  background-color: #27272a;
+  cursor: pointer;
+}
+
+#search-fonts input {
+  background-color: transparent;
+  border: 1px solid #27272a;
+  color: #ffffff;
+  padding: 7px 80px 7px 10px;
+  border-radius: 10px;
+}
+
+#search-fonts input:focus {
+  outline: none;
+}
+
+#brands-font {
+  display: flex;
+}
+
+#txt-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#lift-mode {
+  display: flex;
+  width: 210px;
+  border-radius: 6px;
+  padding: 5px;
+  color: #fafafa;
+  gap: 20px;
+  background-color: #27272a;
+  font-family: "rubik", sans-serif;
+}
+
+#big-txt-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+#big-txt {
+  color: #fafafa;
+  font-family: "rubik", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+#small-txt {
+  font-family: "rubik", sans-serif;
+  color: #9999a1;
+  font-size: 20px;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+#get-button {
+  display: flex;
+  gap: 8px;
+  border: 1px solid #27272a;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fafafa;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: "rubik", sans-serif;
+}
+
+#fa-github {
+  display: flex;
+  gap: 8px;
+  border: 1px solid #27272a;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fafafa;
+  font-weight: normal;
+  font-family: "rubik", sans-serif;
+  font-size: 14px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#fa-github:hover {
+  background-color: #27272a;
+}
