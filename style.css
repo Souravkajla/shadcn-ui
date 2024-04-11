@@ -84,11 +84,28 @@ body {
   background-color: transparent;
   padding: 9px;
   border-radius: 10px;
+  transition: all 0.3s;
 }
 
 #search-fonts i:hover {
   background-color: #27272a;
   cursor: pointer;
+}
+
+.tooltip {
+  display: none;
+  color: #fafafa;
+  font-family: "rubik", sans-serif;
+  font-size: 12px;
+  background-color: #27272a;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+}
+
+.hover:hover .tooltip {
+  display: block;
 }
 
 #search-fonts input {
@@ -97,6 +114,11 @@ body {
   color: #ffffff;
   padding: 7px 80px 7px 10px;
   border-radius: 10px;
+  transition: all 0.3s;
+}
+
+#search-fonts input:hover {
+  background-color: #27272a;
 }
 
 #search-fonts input:focus {
@@ -428,6 +450,15 @@ New Styling****** */
   width: 31.5vw;
   background-color: #27272a;
   border-radius: 10px;
+}
+
+.profile2:hover {
+  height: 18vh;
+  width: 31.5vw;
+  background-color: #27272a;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .william-profile {
